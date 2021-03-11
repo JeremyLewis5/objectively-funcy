@@ -1,5 +1,39 @@
 // Your code here.
+function getFirstName(user) {
+  return user.firstName;
+}
 
+function getLastName(user) {
+  return user.lastName;
+}
+
+function getFullName(user) {
+  const fullName = user.firstName + ' ' + user.lastName;
+  return fullName;
+}
+ 
+function setFirstName(user) {
+//    const newName = user.firstName;
+//    if 
+  }
+
+  function setAge(user) {
+
+  }
+
+function giveBirthday(user) {
+  if (user.age === '') {
+    return user.age === 1;
+  } else {
+    return user.age ++;
+  }
+
+  
+}
+
+function marry(user) {
+  
+}
 
 
 
